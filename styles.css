@@ -37,3 +37,9 @@ body {
 [data-testid="header"] {
   color: #d94f00;
 }
+
+.sdk-order-details-section > .sdk-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
