@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(180deg, #fff8e7 0%, #ffffff 55%);
+}
+
+[data-testid="app-layout-id"] {
+  border-top: 10px solid #d94f00;
+}
+
+[data-testid="home-page-id"] h2 {
+  color: #d94f00;
+  font-size: 2.4rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+[data-testid="button-order-id"] {
+  background: #d94f00 !important;
+  border: 3px solid #7a2500 !important;
+  border-radius: 999px !important;
+  box-shadow: 0 10px 24px rgba(217, 79, 0, 0.28);
+  color: #ffffff !important;
+  transform: scale(1.03);
+}
+
+[data-testid="button-order-id"]:hover,
+[data-testid="button-order-id"]:focus {
+  background: #b33f00 !important;
+}
+
+[data-testid="button-user-id"],
+[data-testid="button-user-domain-id"],
+[data-testid="button-order-address-id"],
+[data-testid="button-order-business-id"] {
+  border-radius: 999px !important;
+}
+
+[data-testid="header"] {
+  color: #d94f00;
+}
