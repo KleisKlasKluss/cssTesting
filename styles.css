@@ -43,3 +43,21 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+[data-testid="button--id"] {
+  background: #ff00ff !important;
+  border: 4px solid #000000 !important;
+  color: #ffffff !important;
+  border-radius: 50px !important;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  padding: 16px 40px !important;
+  box-shadow: 0 0 30px rgba(255, 0, 255, 0.7) !important;
+  transform: scale(1.15);
+}
+
+[data-testid="button--id"]:hover,
+[data-testid="button--id"]:focus {
+  background: #cc00cc !important;
+  transform: scale(1.2);
+}
