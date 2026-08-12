@@ -61,3 +61,23 @@ body {
   background: #cc00cc !important;
   transform: scale(1.2);
 }
+
+[data-testid="complete-order-id"] {
+  border: 6px solid #00a6a6;
+  background: #efffff;
+  border-radius: 16px;
+}
+
+[data-testid="complete-order-id"] .complete-icon-wrapper {
+  background-color: #00a6a6;
+  box-shadow: 0 0 0 8px rgba(0, 166, 166, 0.2);
+}
+
+[data-testid="complete-order-id"] h3 {
+  color: #006b6b;
+}
+
+[data-testid="complete-order-id"] [data-testid="button--id"] {
+  background: #ff00ff !important;
+  border-color: #000000 !important;
+}
