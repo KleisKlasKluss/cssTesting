@@ -48,7 +48,8 @@ body {
     margin-right: auto;
 }
 
-[data-testid="button--id"] {
+[data-testid="button--id"],
+[data-testid="button-user-form-submit-id"] {
   background: #ff00ff !important;
   border: 4px solid #000000 !important;
   color: #ffffff !important;
