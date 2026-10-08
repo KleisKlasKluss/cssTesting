@@ -30,7 +30,11 @@ body {
 [data-testid="button-user-id"],
 [data-testid="button-user-domain-id"],
 [data-testid="button-order-address-id"],
-[data-testid="button-order-business-id"] {
+[data-testid="button-order-business-id"],
+[data-testid="user"],
+[data-testid="user-domain"],
+[data-testid="order-address"],
+[data-testid="order-business"]{
   border-radius: 999px !important;
 }
 
@@ -56,6 +60,8 @@ body {
   transform: scale(1.15);
 }
 
+[data-testid="button-user-form-submit-id"]:hover,
+[data-testid="button-user-form-submit-id"]:focus,
 [data-testid="button--id"]:hover,
 [data-testid="button--id"]:focus {
   background: #cc00cc !important;
@@ -77,7 +83,26 @@ body {
   color: #006b6b;
 }
 
-[data-testid="complete-order-id"] [data-testid="button--id"] {
+[data-testid="complete-order-id"] [data-testid="button--id"],
+[data-testid="complete-order-id"] [data-testid="complete-order-confirm-button"]{
   background: #ff00ff !important;
   border-color: #000000 !important;
+}
+
+[data-testid="order"] {
+  background: #d94f00 !important;
+  border: 3px solid #7a2500 !important;
+  border-radius: 999px !important;
+  box-shadow: 0 10px 24px rgba(217, 79, 0, 0.28);
+  color: #ffffff !important;
+  transform: scale(1.03);
+}
+
+[data-testid="order"]:hover,
+[data-testid="order"]:focus {
+  background: #b33f00 !important;
+}
+
+[data-testid="complete-order-title"] {
+  color: #006b6b;
 }
